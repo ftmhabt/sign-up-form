@@ -99,6 +99,11 @@ input{
     border: 1px #2f2d0e51 solid;
 }
 
+input:focus{
+    border-radius: 0.3rem;
+    border: 1px #00ff84 solid;
+}
+
 button{
     margin: 1rem 0;
     padding: 0.8rem 0;
