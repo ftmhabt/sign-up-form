@@ -29,13 +29,21 @@ body{
     align-items: center;
     background-image: url("jennifer-kalenberg-3CRk4dV-4hM-unsplash.jpg");
     background-size: cover;
-    background-position: right;
-    
+    background-position: left;    
 }
 
 .logo{
+    display: flex;
     color: #2F2D0E;
-    margin: auto;
+    margin-top: 9rem;
+    background-color: #2f2d0e49;
+    width: 100%;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.logo span{
+    font-size: 40px;
 }
 
 .credit{
