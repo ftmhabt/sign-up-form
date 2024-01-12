@@ -2,7 +2,101 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    
 }
+
+a{
+    text-decoration: none;
+    color: #4C4F24;
+}
+
 body{
-    background-color: aquamarine;
+    background-color: #AF9061;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+/*side bar style*/
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1;
+    align-items: center;
+    background-image: url("jennifer-kalenberg-3CRk4dV-4hM-unsplash.jpg");
+    background-size: cover;
+    background-position: right;
+    
+}
+
+.logo{
+    color: #2F2D0E;
+    margin: auto;
+}
+
+.credit{
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+}
+
+/*main*/
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 36px;
+}
+
+.container p{
+    padding: 1rem 0;
+}
+
+.form-holder{
+    
+    color: #2F2D0E;
+    background-color: white;
+    margin-left: -36px;
+    padding-left: 36px;
+    box-shadow: 5px 4px 9px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 5px 4px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 4px 9px 0px rgba(0,0,0,0.3);
+
+}
+.form-holder h2{
+    padding: 0.8rem 0;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+
+input{
+    height: 1.8rem;
+    width: 25vw;
+    border-radius: 0.3rem;
+    border: 1px #2f2d0e51 solid;
+}
+
+button{
+    margin: 1rem 0;
+    padding: 0.8rem 0;
+    width: 15rem;
+    border-radius: 0.3rem;
+    border: 0;
+    background-color: #4C4F24;
+    color: white;
 }
