@@ -49,7 +49,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    flex: 3;
+    flex: 2;
     padding-left: 36px;
 }
 
