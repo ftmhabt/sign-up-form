@@ -110,8 +110,14 @@ input:focus{
     border-color: blue;
 }
 
-input:invalid:focus{
+input:required:focus:invalid{
     border-color: red;
+    color: red;
+}
+
+.pass-match{
+    color: red;
+    font-size: 12px;
 }
 
 button{
@@ -123,4 +129,8 @@ button{
     background-color: #4C4F24;
     color: white;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: #2b2d11;
 }
