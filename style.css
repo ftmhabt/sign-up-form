@@ -106,10 +106,11 @@ input{
 
 input:active,
 input:focus{
-    border-color: aqua;
+    outline: 0;
+    border-color: blue;
 }
 
-input:invalid{
+input:invalid:focus{
     border-color: red;
 }
 
