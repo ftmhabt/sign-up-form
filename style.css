@@ -122,4 +122,5 @@ button{
     border: 0;
     background-color: #4C4F24;
     color: white;
+    cursor: pointer;
 }
